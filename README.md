@@ -8,6 +8,7 @@ As per http://www.commandlinefu.com/commands/view/3889/prints-per-line-contribut
 
 ### Fix committer name and email
 As per https://stackoverflow.com/questions/750172/change-the-author-and-committer-name-and-e-mail-of-multiple-commits-in-git
+
     #!/bin/sh
     
     git filter-branch --env-filter '
