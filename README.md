@@ -1,6 +1,10 @@
 # gitcommands
 ## Helpful git commands
 
+### List globally installed packages
+
+    npm list -g --depth=0
+
 ### Count number of code lines in git repository per user
 As per http://www.commandlinefu.com/commands/view/3889/prints-per-line-contribution-per-author-for-a-git-repository
 
