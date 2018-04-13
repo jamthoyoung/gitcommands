@@ -30,3 +30,8 @@ As per https://stackoverflow.com/questions/750172/change-the-author-and-committe
         export GIT_AUTHOR_EMAIL="$CORRECT_EMAIL"
     fi
     ' --tag-name-filter cat -- --branches --tags
+
+### Logging commands
+List file names
+
+     git log --name-only
