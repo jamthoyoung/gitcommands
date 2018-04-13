@@ -39,8 +39,9 @@ List file names
 ### Restoring files
 Checking difference of a file or folder
 
-     git diff HEAD <good_commit> -- the_path
+     git diff --name-only HEAD GOOD_SHA
+     git diff HEAD GOOD_SHA -- the_path
 
 Then fix it
 
-     git checkout <good_commit> -- file1/to/restore file2/to/restore
+     git checkout GOOD_SHA -- file1/to/restore file2/to/restore
