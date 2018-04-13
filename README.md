@@ -35,3 +35,12 @@ As per https://stackoverflow.com/questions/750172/change-the-author-and-committe
 List file names
 
      git log --name-only
+
+### Restoring files
+Checking difference of a file or folder
+
+     git diff HEAD <good_commit> -- the_path
+
+Then fix it
+
+     git checkout <good_commit> -- file1/to/restore file2/to/restore
