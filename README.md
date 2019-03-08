@@ -45,3 +45,15 @@ Checking difference of a file or folder
 Then fix it
 
      git checkout GOOD_SHA -- file1/to/restore file2/to/restore
+
+Partial checkout to interactivly reset each change in a file back to HEAD
+
+     git checkout -p myfile
+
+Or from previous commit
+
+     git checkout -p GOOD_SHA myfile
+
+Overwrite file with another branch HEAD
+
+     git checkout myotherbranch myfile
